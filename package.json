@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DanteMA/JesusX/issues"
   },
-  "homepage": "https://github.com/DanteMA/JesusX#readme"
+  "homepage": "https://github.com/DanteMA/JesusX#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
 }
