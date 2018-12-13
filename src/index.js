@@ -22,7 +22,7 @@ bot.on("message", async message => {
     // currently just 1 developer todo: add an array of developers unique id
     if(message.author.discriminator == '0636') {
       message.channel.send("Actualizando...")
-      shell.exec("npm install;git pull;pm2 restart JesusX");
+      shell.exec("git pull;npm install;pm2 restart JesusX");
       return message.channel.send("Actualizacion completa!")
     }
     else {
