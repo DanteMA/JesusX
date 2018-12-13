@@ -30,7 +30,7 @@ bot.on("message", async message => {
     }
   }
   if(cmd === `${prefix}hello`){
-    return message.channel.send("From the ashes, I have returned");
+    return message.channel.send("From the ashes, I have returnedTEST");
   }
 });
 
